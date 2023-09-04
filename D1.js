@@ -74,6 +74,16 @@ console.log(substraction2);
 let name1 = "john";
 let name2 = "John";
 
-console.log(!(name1 === name2));
+console.log(name1 === name2);
+// La console mi consegna false, le due stringhe sono effettivamente diverse.
 
+// Possiamo usare anhce console.log(!(name1 === name2));
 // La console mi consegna "true", le due stringhe sono effettivamente diverse.
+
+name2 = name2.toLowerCase();
+
+console.log(name2);
+// A questo punto anche la stringa di name2 è in minuscolo.
+
+console.log(name1 === name2);
+// La console mi consegna "true", le due variabili sono adesso uguali.
